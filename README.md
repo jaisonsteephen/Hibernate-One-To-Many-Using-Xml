@@ -38,3 +38,22 @@ SQL> select *  from ans501;
 	 3	    2 Jai     Servlet is an Interface		0
 	 4	    2 Arun    Servlet is an API 		1
 
+
+
+Hibernate: select question0_.id as id1_1_, question0_.qname as qname2_1_ from q501 question0_
+
+Question Name: What is Java?
+
+Hibernate: select answers0_.qid as qid4_1_0_, answers0_.id as id1_0_0_, answers0_.type as type5_0_, answers0_.id as id1_0_1_, answers0_.answername as answerna2_0_1_, answers0_.postedBy as postedBy3_0_1_ from ans501 answers0_ where answers0_.qid=?
+
+Java is a programming language:Ravi
+
+Java is a platform:Sudhir
+
+Question Name: What is Servlet?
+
+Hibernate: select answers0_.qid as qid4_1_0_, answers0_.id as id1_0_0_, answers0_.type as type5_0_, answers0_.id as id1_0_1_, answers0_.answername as answerna2_0_1_, answers0_.postedBy as postedBy3_0_1_ from ans501 answers0_ where answers0_.qid=?
+
+Servlet is an Interface:Jai
+
+Servlet is an API:Arun
